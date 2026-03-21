@@ -4,3 +4,20 @@ body {
     line-height: 1.6;
     margin: 50px;
 }
+/*selectores universales */
+* {
+    box-sizing: border-box;
+}
+/*selectores multiples */
+h1,h2{
+    color:black;
+}
+.album{
+    background-color: aqua;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.album img{
+    color: brown;
+}
