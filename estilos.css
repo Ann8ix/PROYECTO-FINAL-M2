@@ -21,3 +21,36 @@ h1,h2{
 .album img{
     color: brown;
 }
+/*parte de las frases*/
+.frases{
+    background-color: #ff4a4a;
+    color:aliceblue;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.block{
+    display: block;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+    background-color: #c77dff;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+
+.inline-block {
+    display: inline-block;
+    background-color: #e0aaff;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
