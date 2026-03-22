@@ -1,33 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: #e7c6ff;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7d3f0; /* lila suave */
+    color: #010001;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+/*titulo principal */
+h1 {
+    color: #ea0404;
+    font-size: 60px;
+    text-align: center;
+}
+/*selectores universales */
+
+/*selectores multiples */
+h1,h2{
+    color:rgb(19, 6, 6);
+}
+.album {
+    background-color: #ffab56;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px;
+    box-shadow: 0 5px 15px rgba(136, 8, 171, 0.2);
+}
+
+.album h3 {
+    color:#1b0505;
+}
+
+.album p {
+    color: #330000;
+}
+/*parte de las frases*/
+.frases {
+    background-color: #f4852a;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px;
+}
+.btn {
+    background-color: #ce93d8;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit; /* HEREDA la fuente */
+    transition: 0.3s;
+}
+.frase-destacada {
+    background-color: #de941d;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 /*selectores universales */
 * {
     box-sizing: border-box;
 }
-/*selectores multiples */
-h1,h2{
-    color:black;
-}
-.album{
-    background-color: aqua;
-    padding: 25px;
-    margin-top: 30px;
-    border-radius: 10px;
-}
-.album img{
-    color: brown;
-}
-/*parte de las frases*/
-.frases{
-    background-color: #ff4a4a;
-    color:aliceblue;
-    padding: 25px;
-    margin-top: 30px;
-    border-radius: 10px;
+
+.btn:hover {
+    background-color: #ab47bc;
+    color: white;
 }
 .block{
     display: block;
