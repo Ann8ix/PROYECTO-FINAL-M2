@@ -11,6 +11,29 @@ body {
     margin-top:20px;
     padding: 20px;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1a31d;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
 .contenedor {
     display: flex;
     justify-content: center; /* centra */
