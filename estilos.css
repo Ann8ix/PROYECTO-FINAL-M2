@@ -238,4 +238,45 @@ h1,h2{
     gap: 10px;
     flex-wrap: wrap;
 }
+/* IMPORTANCIA BTS */
+.importancia {
+    background: linear-gradient(135deg, #e8ffc2, #fdffe8);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+}
 
+/* efecto decorativo con position */
+.importancia::after {
+    content: "🧡";
+    font-size: 120px;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+/* card centrada con flexbox */
+.card-importancia {
+    position: relative;
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+/* textarea */
+.card-importancia textarea {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+    min-height: 120px;
+    font-family: inherit;
+}
